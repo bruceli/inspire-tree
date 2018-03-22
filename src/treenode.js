@@ -185,6 +185,7 @@ class TreeNode {
      * @return {TreeNode} Node object.
      */
     check(shallow) {
+        alert('checked');
         this._tree.batch();
 
         // Will we automatically apply state changes to our children
