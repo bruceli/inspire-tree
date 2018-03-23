@@ -1257,6 +1257,7 @@ class TreeNode {
      * @return {TreeNode} Node object.
      */
     toggleSelect() {
+        alert('toggleSelect');
         return (this.selected() ? this.deselect() : this.select());
     }
 
